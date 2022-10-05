@@ -58,7 +58,7 @@
   bottom: 30px;
   left: 64px;
   padding: 0;
-  margin: 0 auto;
+  margin: 0;
   align-items: flex-end;
 }
 
@@ -188,7 +188,7 @@
   margin: 0;
 }
 
-.tabel__text {
+.table__text {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -259,7 +259,7 @@ margin: 0;
   position: relative;
 }
 
-.section-title__theme_dark {
+.section-title_theme_dark {
   width: 60%;
   margin-bottom: 20px;
   text-align: center;
@@ -270,7 +270,7 @@ margin: 0;
   color: white;
 }
 
-.section-subtitle__theme_dark {
+.section-subtitle_theme_dark {
   margin: 0;
   width: 60%;
   text-align: center;
@@ -308,7 +308,7 @@ margin: 0;
   z-index: 10;
 }
 
-.tabel__text_theme_dark {
+.table__text_theme_dark {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -358,7 +358,7 @@ margin: 0;
   justify-content: space-between;
 }
 
-.logo__place_footer {
+.logo_place_footer {
   margin: 0;
   background-image: url(../images/logo_place_footer.svg);
 }
