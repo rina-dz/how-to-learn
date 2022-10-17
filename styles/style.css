@@ -166,7 +166,6 @@ a:hover {
 }
 
 .video {
-  outline: 3px goldenrod solid;
   margin: 0 auto;
   padding: 0;
   display: flex;
@@ -174,13 +173,19 @@ a:hover {
   align-items: center;
   justify-content: center;
   overflow: visible;
+  position: relative;
+}
+
+.video__iframes_fake {
+  width: 515px;
+  height: 271px;
+  margin: 50px auto 0;
 }
 
 .video__iframes {
-  outline: 5px rgb(60, 218, 32) solid;
-  padding: 0;
-  margin: 50px auto 0;
   display: flex;
+  position: absolute;
+  bottom: -50px;
 }
 
 .video__iframe {
