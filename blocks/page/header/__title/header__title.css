@@ -1,0 +1,11 @@
+.header__title {
+  font-family:  'Helvetica Neue', 'Arial', sans-serif;
+  color: #000;
+  font-size: 102px;
+  font-weight: 600px;
+  width: 730px;
+  line-height: 96px;
+  z-index: 10;
+  margin: 0 0 0 64px;
+  padding: 0;
+}
