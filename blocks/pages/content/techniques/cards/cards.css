@@ -3,7 +3,7 @@
   margin: 0 auto;
   padding: 0;
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  justify-content: stretch;
+  flex-flow: row wrap;
   list-style-type: none;
 }

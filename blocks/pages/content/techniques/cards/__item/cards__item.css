@@ -1,0 +1,18 @@
+.cards__item {
+  width: 240px;
+  height: 400px;
+  margin: 0 100px 0 0;
+  padding: 60px 0 0;
+}
+
+.cards__item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.cards__item:nth-last-child(2) {
+  margin-left: 0px;
+}
+
+.cards__item:last-child {
+  margin-left: 0;
+}
